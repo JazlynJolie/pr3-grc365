@@ -9,6 +9,7 @@ html {
   font-size: 16pt;
 }
 
+/* NAV */
 nav {
   display: flex;
   align-items: center;
@@ -42,6 +43,7 @@ nav > a {
   color: black;
 }
 
+/* H1 TITLE - HOME */
 main {
     display: flex;
     flex-direction: column;
@@ -60,11 +62,20 @@ main {
 .event-name {
     font-size: 5rem;
     left: -210px;
-    margin: 100px 0px 0px;
+    margin: 200px 0px 0px;
 }
 
 .event-type {
     font-size: 4rem;
     left: 147px;
     margin: 50px 0px 100px;
+}
+
+/* LOCATION & AUDIENCE - HOME */
+.details {
+  margin: 100px 150px;
+  column-count: 2;
+  column-gap: 60px;
+  font-family: "Winky Rough", sans-serif;
+  font-weight: 300;
 }
