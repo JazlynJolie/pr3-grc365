@@ -7,6 +7,11 @@ html {
   color: #222;
   line-height: 1.4;
   font-size: 16pt;
+  background-color: #1F2327;
+}
+
+p {
+    color: #9DA9A9;
 }
 
 /* NAV */
