@@ -121,3 +121,35 @@ main:has(.laufey-title) {
   line-height: 1.5;
   margin: 300px -12em 0;
 }
+
+
+
+/* MOBILE - ABOUT */
+@media (max-width: 800px) {
+
+  main:has(.laufey-title) {
+    grid-template-columns: 1fr;
+    margin: 60px auto;
+    justify-items: center;
+  }
+
+  .laufey-title {
+    position: static;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .laufey-portrait {
+    width: 85%;
+    max-width: 350px;
+    grid-column: 1;
+  }
+
+  .about-laufey {
+    grid-column: 1;
+    margin: 30px 20px 0;
+    font-size: 1rem;
+    max-width: 90%;
+  }
+}
