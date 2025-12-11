@@ -45,7 +45,7 @@ nav > a {
 
 .nav-links li a {
   text-decoration: none;
-  color: black;
+  color: #FDF5DE;
 }
 
 /* H1 TITLE - HOME */
@@ -157,4 +157,62 @@ main:has(.laufey-title) {
     font-size: 1rem;
     max-width: 90%;
   }
+}
+
+/* SCHEDULE — TIMELINE MENU */
+.timeline-menu {
+  width: 90%;
+  max-width: 450px;
+  margin: 60px auto;
+  font-family: "Winky Rough", sans-serif;
+  color: #222;
+}
+
+.timeline-item {
+  border-left: 3px solid #314259;
+  padding-left: 20px;
+  margin: 40px 0;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #314259;
+  border-radius: 50%;
+  position: absolute;
+  left: -7px;
+  top: 0;
+}
+
+.timeline-toggle {
+  background: none;
+  border: none;
+  color: #7EAED9;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.timeline-toggle:focus {
+  outline: none;
+}
+
+.timeline-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .4s ease;
+  margin-top: 10px;
+}
+
+.timeline-content p {
+  color: #9DA9A9;
+}
+
+.timeline-item.open .timeline-content {
+  max-height: 300px;
 }
