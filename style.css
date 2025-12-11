@@ -79,3 +79,45 @@ main {
   font-family: "Winky Rough", sans-serif;
   font-weight: 300;
 }
+
+/* ABOUT LAUFEY */
+.about-laufey {
+  max-width: 480px;
+}
+
+main:has(.laufey-title) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  position: relative;
+  margin: 100px auto;
+  max-width: 1100px;
+  justify-items: center;
+}
+.laufey-title {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 7.5rem;
+  line-height: 0.9;
+  font-family: "Homemade Apple", cursive;
+  position: absolute;
+  left: 40%;
+  bottom: 48%;
+  z-index: 2;
+  color: #7EAED9;
+}
+
+.laufey-portrait {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  max-width: 500px;
+}
+
+.about-laufey {
+  grid-column: 2;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin: 300px -12em 0;
+}
