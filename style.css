@@ -289,3 +289,36 @@ h2 {
         max-width: 90%;
     }
 }
+
+/* NAV */
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .mobile-menu {
+    display: block;
+    padding: 20px;
+    font-size: 25px;
+    background: none;
+    border-left: 1px solid #000000;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    position: absolute;
+    top: 60px;
+    border-top: 1px solid #000000;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
