@@ -9,6 +9,49 @@ html {
   font-size: 16pt;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #222;
+  line-height: 1.4;
+  font-size: 16pt;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 30px;
+  position: relative;
+  font-family: "Homemade Apple", cursive;
+  font-size: 20px;
+}
+
+nav > a {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-logo {
+  height: 60px;
+  display: block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
 
 
 
