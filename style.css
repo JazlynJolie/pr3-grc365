@@ -68,12 +68,14 @@ main {
     font-size: 5rem;
     left: -210px;
     margin: 200px 0px 0px;
+    color: #ffffff;
 }
 
 .event-type {
     font-size: 4rem;
     left: 147px;
     margin: 50px 0px 100px;
+    color: #7EAED9;
 }
 
 /* LOCATION & AUDIENCE - HOME */
