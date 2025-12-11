@@ -78,6 +78,49 @@ main {
     color: #7EAED9;
 }
 
+/* MOBILE — HOMEPAGE */
+@media (max-width: 800px) {
+
+  nav {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+
+  .nav-logo {
+    height: 45px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  /* MOBILE - HOME */
+  .event-name {
+    font-size: 3rem;
+    left: 0;
+    margin: 120px 0 0;
+    text-align: center;
+  }
+
+  .event-type {
+    font-size: 2.5rem;
+    left: 0;
+    text-align: center;
+    margin: 20px 0 60px;
+  }
+
+  .details {
+    column-count: 1 !important;
+    column-gap: 0;
+    margin: 40px 20px;
+  }
+
+  .details p {
+    margin-bottom: 1rem; */
+  }
+}
+
+
 /* LOCATION & AUDIENCE - HOME */
 .details {
   margin: 100px 150px;
@@ -162,10 +205,17 @@ main:has(.laufey-title) {
 }
 
 /* SCHEDULE — TIMELINE MENU */
+
+h2 {
+    color: #ffffff;
+    font-family: "Homemade Apple", cursive;
+    margin-top: 100px;
+}
+
 .timeline-menu {
-  width: 90%;
-  max-width: 450px;
-  margin: 60px auto;
+  width: 900%;
+  max-width: 350px;
+  margin: 50px auto;
   font-family: "Winky Rough", sans-serif;
   color: #222;
 }
@@ -173,7 +223,7 @@ main:has(.laufey-title) {
 .timeline-item {
   border-left: 3px solid #314259;
   padding-left: 20px;
-  margin: 40px 0;
+  margin: 20px 0;
   position: relative;
 }
 
@@ -193,7 +243,7 @@ main:has(.laufey-title) {
   border: none;
   color: #7EAED9;
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   width: 100%;
   cursor: pointer;
@@ -208,7 +258,7 @@ main:has(.laufey-title) {
   max-height: 0;
   overflow: hidden;
   transition: max-height .4s ease;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .timeline-content p {
